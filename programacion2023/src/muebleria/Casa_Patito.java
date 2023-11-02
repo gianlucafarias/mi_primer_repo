@@ -7,10 +7,10 @@ import javax.swing.JOptionPane;
 public class Casa_Patito {
 	public static void main(String[] args) {
 		String opciones[] = new String[4];
-		opciones[0] = "Ingresar un mueble";
-		opciones[1] = "Ingresar un telefono";
-		opciones[2] = "Listado de muebles";
-		opciones[3] = "Listado de telefonos";
+		opciones[0] = "Ingresar un MUEBLE";
+		opciones[1] = "Ingresar un TELEFONO";
+		opciones[2] = "Listado de MUEBLES";
+		opciones[3] = "Listado de TELEFONOS";
 		String respuesta = (String) JOptionPane.showInputDialog(null, "Seleccione una opción", "Casa Patito :)", JOptionPane.DEFAULT_OPTION, null, opciones, opciones[0]);
 		switch(respuesta) {
 		case "Ingresar un mueble":
